@@ -1,0 +1,19 @@
+{
+  "name": "test", // Your Plugin Name (CamalCased)
+  "version": "0.0.1", // Plugin version.
+  "description": "Your Plugin Description", // What you want the desc to say.
+  "cordova": {
+    "id": "cordova-plugin-test", // same as your Github Repo.
+    "platforms": [ // The platforms you're targeting. 
+      "ios" // We're only targeting IOS for this tutorial.
+    ]
+  },
+  "keywords": [ // Keywords that your plugin will be searched by. 
+    "cordova",
+    "test",
+    "ecosystem:cordova",
+    "cordova-ios",
+  ],
+  "author": "Jitendra", // Your name
+  "license": "MIT" // The license you want (recommended to be MIT)
+}
